@@ -10,12 +10,12 @@ function MovieCard({ movie }) {
                 />
                 </div>
                 <div className="card-back">
-                    <h1>{movie.title}</h1>
+                    <h1 className="card-title">{movie.title}</h1>
                     <ul>
-                        <li>
+                        <li className="release">
                             <p>RELEASE DATE: {movie.release_date}</p>
                         </li>
-                        <li>
+                        <li className="rating">
                             <p>RATING: {movie.vote_average}</p>
                         </li>
                         <li>

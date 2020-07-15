@@ -34,6 +34,7 @@ body {
   text-align: center;
   color: #f0f0f0;
 }
+
 .form {
   display: flex;
   flex-direction: row;
@@ -47,7 +48,6 @@ body {
   color: #f0f0f0;
   font-weight: 400;
   letter-spacing: 2px;
-
 }
 
 input {
@@ -121,16 +121,11 @@ input {
 .card-back {
   display: flex;
   flex-direction: column;
-  background-color: blue;
+  background-color: #185490;
   color: #ffffff;
   transform: rotateY(180deg);
   align-items: center;
   height: 600px;
- 
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 
 .card-back p {
@@ -155,6 +150,24 @@ input {
 .card li {
   list-style: none;
 }
+
+.rating {
+  color:#000097;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.release {
+  color:#000;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+
 
 @media (max-width: 1200px) {
 
