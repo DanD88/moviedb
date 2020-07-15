@@ -84,7 +84,7 @@ input {
   height: 600px;
   width: 100%;
   perspective: 1000px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   box-shadow: 1px 1px 5px rgba(153, 149, 149, 0.25);
 }
 
